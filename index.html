@@ -1,0 +1,285 @@
+<!DOCTYPE html>
+<html lang="en" data-bs-theme="dark">
+
+<head>
+	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
+	<title>Raport TK Ngudi Utami</title>
+	<link rel="stylesheet" href="assets/css/bootstrap.min.css">
+	<script src="assets/js/bootstrap.js"></script>
+
+</head>
+
+<body>
+	<nav class="navbar navbar-expand-sm navbar-light bg-primary">
+		<div class="container-md text-center">
+			<a class="navbar-brand" href="#">Rapor TK Ngudi Utami</a>
+		</div>
+	</nav>
+
+	<main class="container-md">
+		<section class="mt-5">
+			<h3 class="border-bottom border-dark text-center text-uppercase">
+				Laporan Capaian Perkembangan Anak didik
+			</h3>
+			<div class="container-fluid mt-5">
+				<form class="row g-3 needs-validation" id="submit-data-rapor" novalidate>
+					<h4 class="border-bottom border-top border-danger text-center">
+						Form Anak
+					</h4>
+
+					<div class="row container-fluid">
+						<div class="col-md-4">
+							<label for="nomor-induk" class="form-label">Nomor Induk</label>
+							<input type="text" class="form-control" id="nomor-induk" name="nomor-induk" required>
+						</div>
+						<div class="col-md-4">
+							<label for="nama-anak" class="form-label">Nama Anak</label>
+							<input type="text" class="form-control" id="nama-anak" name="nama-anak" required>
+						</div>
+						<div class="col-md-4">
+							<label for="nama-panggilan" class="form-label">Nama Panggilan</label>
+							<input type="text" class="form-control" id="nama-panggilan" name="nama-panggilan" required>
+						</div>
+						<div class="col-md-4">
+							<label for="tempat-ttl" class="form-label">Tempat Lahir</label>
+							<input type="text" class="form-control" id="tempat-ttl" name="tempat-ttl" required>
+						</div>
+						<div class="col-md-4">
+							<label for="tanggal-lahir" class="form-label">Tanggal Lahir</label>
+							<input type="date" class="form-control" id="tanggal-lahir" name="tanggal-lahir" required>
+						</div>
+						<div class="col-md-4">
+							<label for="anak-ke" class="form-label">Anak ke</label>
+							<input type="number" class="form-control" id="anak-ke" name="anak-ke" required>
+						</div>
+						<div class="col-md-3" id="agamaSection">
+							<p class="form-label">Agama</p>
+							<div class="form-check">
+								<input class="form-check-input" type="radio" name="agama" id="islam">
+								<label class="form-check-label" for="islam">
+									Islam
+								</label>
+							</div>
+							<div class="form-check">
+								<input class="form-check-input" type="radio" name="agama" id="kristen">
+								<label class="form-check-label" for="kristen">
+									Kristen
+								</label>
+							</div>
+							<div class="form-check">
+								<input class="form-check-input" type="radio" name="agama" id="katolik">
+								<label class="form-check-label" for="katolik">
+									Katolik
+								</label>
+							</div>
+							<div class="form-check">
+								<input class="form-check-input" type="radio" name="agama" id="buddha">
+								<label class="form-check-label" for="buddha">
+									Budhha
+								</label>
+							</div>
+							<div class="form-check">
+								<input class="form-check-input" type="radio" name="agama" id="hindu">
+								<label class="form-check-label" for="hindu">
+									Hindu
+								</label>
+							</div>
+
+						</div>
+						<div class="col-md-3">
+							<p class="form-label">Jenis Kelamin</p>
+							<div class="form-check">
+								<input class="form-check-input" type="radio" name="jk" id="laki-laki">
+								<label class="form-check-label" for="laki-laki">
+									Laki-Laki
+								</label>
+							</div>
+							<div class="form-check">
+								<input class="form-check-input" type="radio" name="jk" id="perempuan">
+								<label class="form-check-label" for="perempuan">
+									Perempuan
+								</label>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<p class="form-label">Tinggi Badan</p>
+							<!-- <input type="text" class="form-control" id="tinggi-badan" required> -->
+							<div class="input-group mb-3">
+								<input type="number" class="form-control" id="tinggi-badan" name="tinggi-badan"
+									placeholder="tinggi-badan">
+								<span class="input-group-text" id="berat-badan">Cm</span>
+							</div>
+						</div>
+						<div class="col-md-3">
+							<p class="form-label">Berat Badan</p>
+							<div class="input-group mb-3">
+								<input type="number" class="form-control" id="berat-badan" name="berat-badan"
+									placeholder="berat-badan">
+								<span class="input-group-text" id="berat-badan">Kg</span>
+							</div>
+						</div>
+					</div>
+
+					<h4 class="border-bottom border-top border-top border-danger text-center">
+						Form Orang Tua / Wali
+					</h4>
+
+					<div class="container-fluid row">
+						<div class="col-md-6">
+							<label for="ayah-nama" class="form-label">Nama Ayah</label>
+							<input type="text" class="form-control" id="ayah-nama" name="ayah-nama">
+						</div>
+						<div class="col-md-6">
+							<label for="ibu-nama" class="form-label">Nama Ibu</label>
+							<input type="text" class="form-control" id="ibu-nama" name="ibu-nama">
+						</div>
+						<div class="col-md-6">
+							<label for="ayah-pekerjaan" class="form-label">Pekerjaan Ayah</label>
+							<input type="text" class="form-control" id="ayah-pekerjaan" name="ayah-pekerjaan">
+						</div>
+						<div class="col-md-6">
+							<label for="ibu-pekerjaan" class="form-label">Pekerjaan Ibu</label>
+							<input type="text" class="form-control" id="ibu-pekerjaan" name="ibu-pekerjaan">
+						</div>
+
+						<span class="border-bottom mt-3">Alamat Orang Tua / Wali</span>
+						<div class="col-md-4">
+							<label for="jalan" class="form-label">Jalan</label>
+							<input type="text" class="form-control" id="jalan" name="jalan">
+						</div>
+						<div class="col-md-4">
+							<label for="dusun" class="form-label">Dusun</label>
+							<input type="text" class="form-control" id="dusun" name="dusun">
+						</div>
+						<div class="col-md-4">
+							<label for="desa" class="form-label">Desa / Kelurahan</label>
+							<input type="text" class="form-control" id="desa" name="desa">
+						</div>
+						<div class="col-md-4">
+							<label for="kecamatan" class="form-label">Kecamatan</label>
+							<input type="text" class="form-control" id="kecamatan" name="kecamatan">
+						</div>
+						<div class="col-md-4">
+							<label for="kabupaten" class="form-label">Kabupaten / Kota</label>
+							<input type="text" class="form-control" id="kabupaten" name="kabupaten">
+						</div>
+						<div class="col-md-4">
+							<label for="provinsi" class="form-label">Provinsi</label>
+							<input type="text" class="form-control" id="provinsi" name="provinsi">
+						</div>
+
+
+					</div>
+
+					<h4 class="border-bottom border-top border-danger mt-5 text-center">
+						Nilai Agama dan Budi Pekerti
+					</h4>
+
+					<div class="container-fluid row">
+						<div class="mb-3 col-md-12">
+							<label for="deskripsi-nilai-agama" class="form-label">Deskripsi</label>
+							<textarea class="form-control" id="deskripsi-nilai-agama" name="deskripsi-nilai-agama"
+								rows="4"></textarea>
+						</div>
+						<div class="mb-3 col-md-12">
+							<label for="foto-kegiatan-1" class="form-label">Foto Kegiatan Anak Keagamaan dan Budi
+								Pekerti</label>
+							<input class="form-control" type="file" accept="image/*" id="foto-kegiatan-1"
+								name="foto-kegiatan-1" multiple>
+						</div>
+					</div>
+
+					<h4 class="border-bottom border-top border-top border-danger text-center">
+						Jati Diri
+					</h4>
+					<div class="container-fluid row">
+						<div class="mb-3 col-md-12">
+							<label for="deskripsi-jati-diri" class="form-label">Deskripsi</label>
+							<textarea class="form-control" id="deskripsi-jati-diri" name="deskripsi-jati-diri"
+								rows="4"></textarea>
+						</div>
+						<div class="mb-3 col-md-12">
+							<label for="foto-kegiatan-2" class="form-label">Foto Kegiatan Anak Jati Diri</label>
+							<input class="form-control" type="file" accept="image/*" name="foto-kegiatan-2"
+								id="foto-kegiatan-2" multiple>
+						</div>
+					</div>
+					<h4 class="border-bottom border-top border-top border-danger text-center">
+						Dasar Dasar Literasi dan Steam
+					</h4>
+					<div class="container-fluid row">
+						<div class="mb-3 col-md-12">
+							<label for="deskripsi-dasar" class="form-label">Deskripsi</label>
+							<textarea class="form-control" id="deskripsi-dasar" name="deskripsi-dasar"
+								rows="4"></textarea>
+						</div>
+						<div class="mb-3 col-md-12">
+							<label for="foto-kegiatan-dasar-1" class="form-label">Foto Kegiatan Dasar Literasi dan
+								Steam</label>
+							<input class="form-control" type="file" accept="image/*" name="foto-kegiatan-dasar-1"
+								id="foto-kegiatan-dasar-1" multiple>
+						</div>
+					</div>
+					<h4 class="border-bottom border-top border-top border-danger text-center">
+						Proyek Penguatan Profil Pelajar Pancasila
+					</h4>
+					<div class="container-fluid row">
+						<div class="mb-3 col-md-12">
+							<label for="deskripsi-pancasila" class="form-label">Deskripsi</label>
+							<textarea class="form-control" id="deskripsi-pancasila" name="deskripsi-pancasila"
+								rows="4"></textarea>
+						</div>
+						<div class="mb-3 col-md-12">
+							<label for="foto-kegiatan-pancasila-1" class="form-label">Foto Proyek Penguatan Profil
+								Pelajar Pancasila</label>
+							<input class="form-control" type="file" accept="image/*" id="foto-kegiatan-pancasila-1"
+								name="foto-kegiatan-pancasila-1" multiple>
+						</div>
+					</div>
+					<h4 class="border-bottom border-top border-top border-danger text-center">
+						Ekstrakurikuler
+					</h4>
+					<div class="container-fluid row">
+						<div class="mb-3 col-md-12">
+
+						</div>
+						<div class="mb-3 col-md-12">
+							<label for="foto-kegiatan-extra-1" class="form-label">Foto Kegiatan Anak Ekstrakurikuler -
+								1</label>
+							<input class="form-control" type="file" accept="image/*" id="foto-kegiatan-extra-1"
+								name="foto-kegiatan-extra-1">
+							<label for="deskripsi-extra-1" class="form-label mt-2">Deskripsi Ekstrakurikuler - 1</label>
+							<input class="form-control" id="deskripsi-extra-1" name="deskripsi-extra-1" rows="4">
+						</div>
+						<div class="mb-3 col-md-12">
+							<label for="foto-kegiatan-extra-2" class="form-label">Foto Kegiatan Anak Ekstrakurikuler -
+								2</label>
+							<input class="form-control" type="file" accept="image/*" id="foto-kegiatan-extra-2"
+								name="foto-kegiatan-extra-2">
+							<label for="deskripsi-extra-2" class="form-label mt-2">Deskripsi Ekstrakurikuler - 2</label>
+							<input class="form-control" id="deskripsi-extra-2" name="deskripsi-extra-2" rows="4">
+						</div>
+					</div>
+					<button type="submit" class="btn btn-primary">Submit</button>
+				</form>
+			</div>
+		</section>
+		<footer class="col-md-12 text-center">Rahmadhani Yusuf &COPY; 2023</footer>
+	</main>
+
+	<section>
+
+	</section>
+	<script src="https://code.jquery.com/jquery-3.7.1.js"
+		integrity="sha256-eKhayi8LEQwp4NKxN+CfCh+3qOVUtJn3QNZ0TciWLP4=" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/pako/2.1.0/pako.min.js"
+		integrity="sha512-g2TeAWw5GPnX7z0Kn8nFbYfeHcvAu/tx6d6mrLe/90mkCxO+RcptyYpksUz35EO337F83bZwcmUyHiHamspkfg=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/lz-string/1.5.0/lz-string.min.js"
+		integrity="sha512-qtX0GLM3qX8rxJN1gyDfcnMFFrKvixfoEOwbBib9VafR5vbChV5LeE5wSI/x+IlCkTY5ZFddFDCCfaVJJNnuKQ=="
+		crossorigin="anonymous" referrerpolicy="no-referrer"></script>
+	<script src="assets/script.js"></script>
+</body>
+
+</html>

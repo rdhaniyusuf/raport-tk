@@ -1,0 +1,60 @@
+{
+	"nama-anak": "",
+	"tinggi-badan": "",
+	"berat-badan": "",
+
+
+	"nomor-induk": "",
+	"nama-panggilan": "",
+	"tempat-ttl": "",
+	"tanggal-lahir": "",
+	"anak-ke": "",
+	"ayah-nama": "",
+	"ibu-nama": "",
+	"ayah-pekerjaan": "",
+	"ibu-pekerjaan": "",
+	"jalan": "",
+	"dusun": "",
+	"desa": "",
+	"kecamatan": "",
+	"kabupaten": "",
+	"provinsi": "",
+	"deskripsi-nilai-agama": "",
+	"deskripsi-jati-diri": "",
+	"deskripsi-dasar": "",
+	"deskripsi-pancasila": "",
+	"deskripsi-extra-1": "",
+	"deskripsi-extra-2": "",
+	"foto-kegiatan-1": "[{\"base64\":\"/9j/4AAQSkZJRgABAQAAAQABAAD/2wCEAAQEBAQEBAUFBQUHBwYHBwoJCAgJCg8KCwoLCg8WDhAODhAOFhQYExITGBQjHBgYHCMpIiAiKTEsLDE+Oz5RUW0BBAQEBAQEBQUFBQcHBgc\",\"format\":\"image/jpeg\"},{\"base64\":\"/9j/4AAQSkZJRgABAQEASABIAAD/QfSvcyDjXKc5m6eBqc0kr2s07eivG/H/\",\"format\":\"image/jpeg\"}]",
+	"foto-kegiatan-2": "[{\"base64\":\"/9j/4AAQSkZJRgABAQAAAQABAAD/Gmusd12zuqxD2hnr+6u/aP386Jjf6C/Yok/uTc2XZZ2d+Ol3wfc2L+6e2I6o/RDuxE+8FB/wBx1EYrXbx1+9nRs7Q/7pqPQFl0bx0mEmdf3T7A3fuZ/dkaEsz/APlFn//Z\",\"format\":\"image/jpeg\"},{\"base64\":\"/9j/4AAQSkZJRgABAQEASABIAAD/a/uz6POTqOEr5nJayaivRK7/Fo/z1+kTnDeMoZVF6RTm/Vuy+5J/\",\"format\":\"image/jpeg\"}]",
+	"foto-kegiatan-dasar-1": "[{\"base64\":\"/9j/4AAQSkZJRgABAQAAAQABAAD/akPEyWw2CfJCEITE41omkLbXMQmVrmJlBKEFyQhCck+QQhOQea4QpcQhCEwhPhnFMefDMUpCEJwBMUQhDprhCaIQhERERFhjZS7E\",\"format\":\"image/jpeg\"},{\"base64\":\"/9j/knNf1Hf8Ecv2zte/ay=\",\"format\":\"image/jpeg\"}]",
+	"foto-kegiatan-pancasila-1": "[{\"base64\":\"/9j/4AAQSkZJRgABAQAAAQABAADHj30ed0IxpsDcsj\",\"format\":\"image/jpeg\"},{\"base64\":\"/9j/4AAQSkZJRgABAQEASABIAAD/JGdyfSgn5vwoAjjtY4EwoA7+tOI+X/d96dQRzQAzt9KjvJfKtmPrx+NSdEJqpqPG0f7VAEllFtizU6fepLYYjpD94UAOkPy/Wmbvmp5/1ZqLPNAElEp2t25GfvU4cR1VuDiT8KAP/9k=\",\"format\":\"image/jpeg\"}]",
+	"foto-kegiatan-extra-1": "{\"base64\":\"/9j/4AAQSkZJRgABAQEASABIAAD/4SHIRXhpZgAATU0AKgAAAAgAEQEAAAMAAAABDkAAAAEBAAMAAAABFWAAAAECAAMAAAADAAAI5gEGAAMAAAABAAIAAAEPAAIAAAAGAAAI7AEQAAIAAAANAAAI8gESAAMAAAABAAEAAAEVAAMAAAABAAMAAAEaAAUAAAABAAAJA\"format\":\"image/jpeg\"}",
+	"foto-kegiatan-extra-2": "{\"base64\":\"/9j/4AAQSkZJRgABAQEASABIAAD/4SHIRXhpZgAATU0AKgAAAAgAEQEAAAMAAAABDkAAAAEBAAMAAAABFWAAAACA9k=\",\"format\":\"image/jpeg\"}"
+}
+Ullamco sunt incididunt laboris excepteur non incididunt duis eiusmod enim. Et consectetur occaecat nostrud magna. Eiusmod cupidatat consectetur laboris deserunt ex pariatur tempor veniam irure occaecat deserunt mollit incididunt id.
+
+nomor-induk
+nama-anak
+nama-panggilan
+tanggal-lahir
+anak-ke
+tinggi-badan
+berat-badan
+ayah-nama
+ibu-nama
+ayah-pekerjaan
+ibu-pekerjaan
+jalan
+dusun
+desa
+kecamatan
+kabupaten
+provinsi
+deskripsi-nilai-agama
+deskripsi-jati-diri
+deskripsi-dasar
+deskripsi-pancasila
+deskripsi-extra-1
+deskripsi-extra-2
+id

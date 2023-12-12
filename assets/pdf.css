@@ -1,0 +1,301 @@
+body {
+	font-size: 12pt;
+}
+
+p {
+	margin: 0;
+}
+
+section {
+	width: 595pt;
+	height: 842pt;
+	margin-bottom: 2px;
+	border: 1px solid red;
+}
+
+.tb-p1 {
+	height: 100%;
+	width: 100%;
+	padding: 5% 10% 0%;
+}
+
+.tb-p1-1 {
+	width: 100%;
+
+	& td {
+		border: 1px solid;
+		margin: 0;
+		gap: 0;
+		width: fit-content;
+	}
+}
+
+
+.tb-p2 {
+	width: 100%;
+	height: 100%;
+	padding: 5% 10% 0%;
+
+	& p {
+		text-align: center;
+	}
+}
+
+.tb-p3 {
+	width: 100%;
+	height: 100%;
+	padding: 5% 10% 0%;
+
+	& p {
+		text-align: center;
+	}
+}
+
+.tb-p4 {
+	padding: 5%;
+	width: 100%;
+	height: 100%;
+
+	& p {
+		text-align: center;
+	}
+}
+
+.tb-p5 {
+	padding: 5% 10% 0%;
+	width: 100%;
+	height: 100%;
+
+	& p {
+		text-align: center;
+	}
+}
+
+.tb-p6 {
+	padding: 5% 10% 0%;
+	width: 100%;
+	height: 100%;
+
+	& p {
+		text-align: center;
+	}
+
+	.tb-p6-6 {
+		width: 100%;
+
+	}
+
+	& span {
+		text-align: center;
+	}
+}
+
+.tb-p7-1 {
+	padding: 5% 10% 0%;
+	width: 100%;
+	height: 100%;
+
+	& p {
+		text-align: center;
+	}
+
+	.tb-p7-1-1 {
+
+		& td {
+			border: none;
+		}
+
+	}
+}
+
+.tb-p7-2 {
+	position: relative;
+	width: 50%;
+	margin-left: 50%;
+	margin-top: 20%;
+	text-align: center;
+}
+
+@media print {
+	body {
+		width: 210mm;
+		height: 297mm;
+	}
+
+	section {
+		margin: 0;
+		border: none;
+		page-break-before: always;
+	}
+}
+
+img{
+width: 100%;
+}
+
+#nama-anak {
+	background-color: blue;
+	text-align: left;
+}
+
+#nama-panggilan {
+	background-color: red;
+	text-align: justify;
+}
+
+#nomor-induk {
+	text-align: justify;
+	background-color: red;
+}
+
+#jk {
+	background-color: red;
+	text-align: justify;
+}
+
+#tempat-ttl {
+	background-color: red;
+	text-align: justify;
+}
+
+#agama {
+	background-color: red;
+	text-align: justify;
+}
+
+#anak-ke {
+	background-color: red;
+	text-align: justify;
+}
+
+#ayah-nama {
+	background-color: red;
+	text-align: justify;
+}
+
+#ibu-nama {
+	text-align: justify;
+	background-color: red;
+}
+
+#ayah-pekerjaan {
+	background-color: red;
+	text-align: justify;
+}
+
+#ibu-pekerjaan {
+	background-color: red;
+	text-align: justify;
+}
+
+#jalan {
+	background-color: red;
+	text-align: justify;
+}
+
+#desa {
+	background-color: red;
+	text-align: justify;
+}
+
+#kecamatan {
+	background-color: red;
+	text-align: justify;
+}
+
+#kabupaten {
+	background-color: red;
+	text-align: justify;
+}
+
+#provinsi {
+	background-color: red;
+	text-align: justify;
+}
+
+#berat-badan {
+	background-color: cyan;
+	text-align: justify;
+}
+
+#tinggi-badan {
+	background-color: #72145f;
+	text-align: justify;
+}
+
+/* Agama */
+
+#deskripsi-nilai-agama {
+	background-color: green;
+	text-align: justify;
+}
+
+#foto-kegiatan-1-0 {
+	background-color: greenyellow;
+}
+
+#foto-kegiatan-1-1{
+	background-color: #3aa264;
+}
+
+/* jati diri */
+#deskripsi-jati-diri {
+	background-color: rgb(235, 200, 47);
+	text-align: justify;
+}
+
+#foto-kegiatan-2-0 {
+	background-color: rgb(192, 197, 145);
+}
+
+#foto-kegiatan-2-1 {
+	background-color: rgb(225, 230, 75);
+}
+
+/* Dasar */
+
+#deskripsi-dasar {
+	background-color: rgb(249, 117, 117);
+	text-align: justify;
+}
+
+#foto-kegiatan-dasar-1-0 {
+	background-color: rgb(251, 102, 214);
+}
+
+#foto-kegiatan-dasar-1-1{
+	background-color: rgb(150, 48, 252);
+}
+
+/* proyek penguatan */
+
+#deskripsi-pancasila {
+	background-color: rgb(175, 106, 239);
+	text-align: justify;
+}
+
+#foto-kegiatan-pancasila-1-0 {
+	background-color: rgb(97, 77, 250);
+}
+
+#foto-kegiatan-pancasila-1-1 {
+	background-color: rgb(151, 46, 165);
+}
+
+/* ekstrakuli */
+
+#deskripsi-extra-1 {
+	background-color: red;
+}
+
+#foto-kegiatan-extra-1 {
+	background-color: red;
+}
+
+#deskripsi-extra-2 {
+	background-color: red;
+}
+
+#foto-kegiatan-extra-2{
+	background-color: red;
+}
